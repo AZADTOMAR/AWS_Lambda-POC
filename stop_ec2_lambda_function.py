@@ -11,6 +11,6 @@ def lambda_handler(event, context):
         ]
     instances = ec2.instances.filter(Filters=filter)
     for instance in instances:
-        instance.start()
+        instance.stop()
     
     return 'stop' 
