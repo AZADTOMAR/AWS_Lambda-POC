@@ -1,2 +1,2 @@
 # Grofers-assignment
-start-stop aws instances with a tag.
+using python program start-stop aws instances with a tag.
