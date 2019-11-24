@@ -3,12 +3,16 @@ Using python start-stop aws instances with a tag.
 
 Create Tag on EC2 instances- Tag Key- "Type", Value- "Scheduled"
 Schedule EC2 instances from Monday to Friday Start Morning 9 am and Stop Night 11 pm.
+
 Aws Services use-
+
 1. IAM 
 2. Lambda 
 3. Cloudwatch 
 4. EC2 
+
 Steps:
+
 1. IAM Role for Lambda - EC2 instance, AWS Cloudwatch Logs
 2. Creation of Lambda function in python-3.6
 3. Schedule Lambda function
