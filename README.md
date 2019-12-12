@@ -1,4 +1,4 @@
-# Grofers-assignment
+# AWS_Lambda-POC
 Using python start-stop aws instances with a tag.
 
 Create Tag on EC2 instances- Tag Key- "Type", Value- "Scheduled"
